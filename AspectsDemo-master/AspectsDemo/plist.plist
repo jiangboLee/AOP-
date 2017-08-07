@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>MainViewController</key>
+	<dict>
+		<key>GLLoggingPageImpression</key>
+		<string>页面标识符1</string>
+		<key>GLLoggingTrackedEvents</key>
+		<array>
+			<dict>
+				<key>GLLoggingEventName</key>
+				<string>事件名字</string>
+				<key>GLLoggingEventSelectorName</key>
+				<string>buttonOneClicked:</string>
+				<key>GLLoggingEventHandlerBlock</key>
+				<string>点击参数1</string>
+				<key>GLLoggingEventHandlerBlock2</key>
+				<string>点击参数2</string>
+			</dict>
+			<dict>
+				<key>GLLoggingEventName</key>
+				<string>事件名字2</string>
+				<key>GLLoggingEventSelectorName</key>
+				<string>buttonTwoClicked:</string>
+				<key>GLLoggingEventHandlerBlock</key>
+				<string>点击参数3</string>
+				<key>GLLoggingEventHandlerBlock2</key>
+				<string>点击参数4</string>
+			</dict>
+		</array>
+	</dict>
+	<key>DetailViewController</key>
+	<dict>
+		<key>GLLoggingPageImpression</key>
+		<string>页面标识符2</string>
+	</dict>
+</dict>
+</plist>
